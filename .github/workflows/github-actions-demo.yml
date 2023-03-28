@@ -20,4 +20,4 @@ jobs:
           echo ${{ github.event}}
       - name: List files
         shell: pwsh
-        run: get-childitem -recursive
+        run: get-childitem -recurse
